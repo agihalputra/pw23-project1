@@ -1,0 +1,88 @@
+body {
+  background-color: aliceblue;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  color: aliceblue;
+  background-color:#000;
+}
+
+#about {
+  background-color: #ffff;
+  color: black;
+}
+
+#projects {
+  background-color: #ffff;
+  color: black;
+}
+
+#contact {
+  background-color: #a2d9ff;
+  color: #000;
+}
+.color {
+  display: flex;
+  justify-content: center;
+}
+
+
+.src {
+  display: flex;
+  justify-content:center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.box {
+  width: 700px ;
+  height: 30px;
+  display:flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #ffff;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover input {
+  width: 700px;
+}
+
+.box input {
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.9s;
+  background: transparent;
+
+}
+
+.box a .fas {
+color: #000;
+font-size: 18px;
+}
+
+
+
+.col-md-3 {
+  text-align: center;
+}
+
+.search {
+  width: 100px;
+  height: 100px
+}
+
+section {
+  padding-top: 5rem;
+}
+ 
+.text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
